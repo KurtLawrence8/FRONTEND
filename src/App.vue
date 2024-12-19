@@ -49,9 +49,8 @@ export default {
         { to: '/inventory', label: 'Inventory', icon: 'bi-box-seam' },
         { to: '/category', label: 'Category', icon: 'bi-collection' },
         { to: '/product', label: 'Product', icon: 'bi-cart4' },
-        { to: '/order', label: 'Orders', icon: 'bi-credit-card'},
-        { to: '/earnings', label: 'Earnings', icon: 'bi-piggy-bank'},
         { to: '/manage-users', label: 'Manage Users', icon: 'bi-person'},
+        { to: '/settings', label: 'Settings', icon: 'bi-gear'},
       ]
     };
   },

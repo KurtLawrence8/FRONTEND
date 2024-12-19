@@ -8,7 +8,8 @@
         class="form-control search-bar"
         v-model="searchQuery"
         placeholder="Search products"
-      />
+      /> 
+      <button class="btn btn btn-secondary" style="margin-left: 5px;" @click="showAddModal()">Export to Excel</button>
     </div>
 
     <!-- Product Table -->

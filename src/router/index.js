@@ -50,9 +50,9 @@ const routes = [
     meta: { layout: true },
   },
   {
-    path: '/earnings',
-    name: 'Earnings',
-    component: () => import('../components/EarningsView.vue'),
+    path: '/settings',
+    name: 'Settings',
+    component: () => import('../components/AdminUpdateView.vue'),
     meta: { layout: true },
   }
 ];

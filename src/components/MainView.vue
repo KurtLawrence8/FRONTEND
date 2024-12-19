@@ -37,6 +37,8 @@
         <p>{{ formatCurrency(totalEarnings) }}</p>
       </div>
     </div>
+      <StocksView />
+      <MostBuyedView/>
       <ForecastingView/>
   </div>
 </template>
@@ -45,9 +47,11 @@
 import axios from 'axios';
 import ForecastingView from './ForecastingView.vue';
 import config from '@/config';
+import MostBuyedView from './MostBuyedView.vue';
+import StocksView from './StocksView.vue';
 
 export default {
-  components: { ForecastingView },
+  components: { ForecastingView, MostBuyedView, StocksView },
   data() {
     return {
       token: "",

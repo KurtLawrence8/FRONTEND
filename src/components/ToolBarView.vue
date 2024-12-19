@@ -68,7 +68,7 @@ export default {
           // Proceed with logout
           axios
             .post(
-              `${config.apiBaseURL}/logout`,
+              `${config.apiBaseURL}/adminlogout`,
               {},
               {
                 headers: { Authorization: 'Bearer ' + this.token },

@@ -165,7 +165,7 @@ export default {
               label: 'Earnings (Cash)',
               data: ordersData.values,
               borderColor: 'purple',
-              backgroundColor: '#CBC3E3',
+              backgroundColor: '#f5e1fd',
               fill: true,
             },
             {
